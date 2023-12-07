@@ -1,0 +1,38 @@
+---
+canvas: "https://annonatatetester.github.io/2023-iiif-workshop/img/derivatives/iiif/treeidentificationmanualfor4hmembers/canvas/treeidentificationmanualfor4hmembers-1"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "demo",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatetester",
+                "name": "annonatatetester"
+            },
+            "created": "2023-12-07T16:49:37.671Z",
+            "modified": "2023-12-07T16:49:38.159Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatetester.github.io/2023-iiif-workshop/img/derivatives/iiif/treeidentificationmanualfor4hmembers/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://annonatatetester.github.io/2023-iiif-workshop/img/derivatives/iiif/treeidentificationmanualfor4hmembers/canvas/treeidentificationmanualfor4hmembers-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=82.113037109375,79.71167755126953,422.0030212402344,318.8467330932617"
+        }
+    },
+    "id": "b2937eb1-1242-47d6-b46f-8bd764a03c54.json",
+    "motivation": "commenting"
+}
