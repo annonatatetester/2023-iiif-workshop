@@ -30,17 +30,17 @@ order: 1
     "id": "f20d5cc1-b769-467d-a904-cbcf4d8a969b.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "value": "<svg><polygon points=\"2098.85595703125,131.0470428466797 2714.777099609375,131.0470428466797 3330.6982421875,131.0470428466797 3330.6982421875,373.48409271240234 3330.6982421875,615.921142578125 2714.777099609375,615.921142578125 2098.85595703125,615.921142578125 2098.85595703125,373.48409271240234\"></polygon></svg>",
-            "type": "SvgSelector"
-        },
         "source": {
-            "id": "https://d.lib.ncsu.edu/collections/canvas/technician-basketballpreview-1999_0003",
             "partOf": {
                 "id": "https://annonatatetester.github.io/2023-iiif-workshop/manifests/catalog/technician-basketballpreview-1999/manifest.json",
                 "type": "Manifest"
             },
+            "id": "https://d.lib.ncsu.edu/collections/canvas/technician-basketballpreview-1999_0003",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2098.9,131 2767.2,98.3 3330.7,131 3592.8,386.6 3330.7,615.9 2727.9,917.3 2098.9,615.9 1777.8,406.2\"></polygon></svg>"
         }
     },
     "type": "Annotation"
