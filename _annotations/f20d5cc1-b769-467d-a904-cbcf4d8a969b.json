@@ -4,45 +4,44 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Kay Yow",
-            "purpose": "commenting",
+            "created": "2023-12-07T16:25:41.852Z",
             "creator": {
                 "id": "annonatatetester",
                 "name": "annonatatetester"
             },
-            "created": "2023-12-07T16:25:41.852Z",
-            "modified": "2023-12-07T16:25:44.416Z"
+            "modified": "2023-12-07T16:25:44.416Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Kay Yow"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "name",
+            "created": "2023-12-07T16:26:02.289Z",
             "creator": {
                 "id": "annonatatetester",
                 "name": "annonatatetester"
             },
-            "created": "2023-12-07T16:26:02.289Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "name"
         }
     ],
+    "id": "f20d5cc1-b769-467d-a904-cbcf4d8a969b.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "value": "<svg><polygon points=\"2098.85595703125,131.0470428466797 2714.777099609375,131.0470428466797 3330.6982421875,131.0470428466797 3330.6982421875,373.48409271240234 3330.6982421875,615.921142578125 2714.777099609375,615.921142578125 2098.85595703125,615.921142578125 2098.85595703125,373.48409271240234\"></polygon></svg>",
+            "type": "SvgSelector"
+        },
         "source": {
+            "id": "https://d.lib.ncsu.edu/collections/canvas/technician-basketballpreview-1999_0003",
             "partOf": {
                 "id": "https://annonatatetester.github.io/2023-iiif-workshop/manifests/catalog/technician-basketballpreview-1999/manifest.json",
                 "type": "Manifest"
             },
-            "id": "https://d.lib.ncsu.edu/collections/canvas/technician-basketballpreview-1999_0003",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2098.85595703125,131.0470428466797,1231.84228515625,484.8740997314453"
         }
     },
-    "id": "f20d5cc1-b769-467d-a904-cbcf4d8a969b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
